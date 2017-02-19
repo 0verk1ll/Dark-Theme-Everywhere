@@ -48,18 +48,18 @@ ul {
 @media only screen and (min-width: 481px) {
 
 	h2 {
-		font-size: xx-large;
+		font-size: xxx-large;
 		text-align: left;
-	}	
+	}
 
 	p, a, ul, li {
-		font-size: x-large;		
+		font-size: xx-large;
 	}
 
 	#apps {
 		width: 50%;
 	}
-	
+
 }
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
 
