@@ -7,16 +7,66 @@ body {
 h1, h2, h3 {
 	color: cadetblue;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	text-align: center;
 }
+
+img, object, embed, video {
+	max-width: 100%;
+}
+
+.fluid {
+	clear: both;
+	margin-left: 0;
+	width: 100%;float: left;
+	display: block;
+	background-color:#222;
+}
+/* Mobile Layout: 480px and below. */
 
 p {
 	color: darkgrey;
+	font-size: medium;
+	text-align: center;
 }
 
 a {
 	color:aquamarine;
+	font-size: medium;
 }
 
 ul {
 	color: darkgray;
+}
+#apps {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+
+	h2 {
+		font-size: xx-large;
+		text-align: left;
+	}	
+
+	p, a, ul, li {
+		font-size: x-large;		
+	}
+
+	#apps {
+		width: 50%;
+	}
+	
+}
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+
+	#apps {
+		width: 30%
+	}
+
 }
