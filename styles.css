@@ -15,9 +15,10 @@ img, object, embed, video {
 }
 
 .fluid {
-	clear: both;
-	margin-left: 0;
-	width: 100%; float: left;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	float: none;
 	display: block;
 	background-color:#222;
 }
@@ -57,6 +58,10 @@ ul {
 		font-size: x-large;
 	}
 
+	.fluid {
+		width: 75%;
+	}
+
 	#apps {
 		width: 50%;
 	}
@@ -65,7 +70,9 @@ ul {
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
 
 @media only screen and (min-width: 769px) {
-
+	.fluid {
+		width: 60%;
+	}
 	#apps {
 		width: 30%
 	}
