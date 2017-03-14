@@ -6,7 +6,7 @@ body {
 
 h1, h2, h3 {
 	color: cadetblue;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Verdana", "sans-serif";
 	text-align: center;
 }
 
@@ -22,12 +22,22 @@ img, object, embed, video {
 	display: block;
 	background-color:#222;
 }
+
+table {
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
 /* Mobile Layout: 480px and below. */
 
-p {
+p, td {
 	color: darkgrey;
 	font-size: large;
 	text-align: center;
+}
+
+td {
+	width: 33.333%;
 }
 
 a {
@@ -51,7 +61,7 @@ ul {
 
 	h2 {
 		font-size: xx-large;
-		text-align: left;
+		text-align: center;
 	}
 
 	p, a, ul, li {
