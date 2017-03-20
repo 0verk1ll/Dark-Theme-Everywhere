@@ -23,6 +23,34 @@ img, object, embed, video {
 	background-color:#222;
 }
 
+/*These styles control the appearence of the navigation bar for all pages.
+As more pages ae added, the width of the nav ul li element will need to be changed appropriately.*/
+nav {
+	width: 100%;
+	text-align: center;
+}
+nav ul {
+	margin-right: auto;
+	margin-left: auto;
+}
+nav ul li {
+	width: 25%;
+	display: inline;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+nav ul li a {
+	color: #222;
+	background-color: aquamarine;
+	border-radius: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+nav ul li a:hover {
+	color: aquamarine;
+	background-color: #222;
+}
+
 table {
 	max-width: 90%;
 	margin-left: auto;
