@@ -78,8 +78,8 @@ ul {
 	color: darkgray;
 }
 
-#apps {
-	width: 90%;
+#services {
+	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -117,8 +117,8 @@ footer ul li {
 		width: 75%;
 	}
 
-	#apps {
-		width: 50%;
+	#services {
+		width: 90%;
 	}
 
 }
@@ -127,9 +127,6 @@ footer ul li {
 @media only screen and (min-width: 769px) {
 	.fluid {
 		width: 60%;
-	}
-	#apps {
-		width: 30%
 	}
 
 }
