@@ -23,8 +23,7 @@ img, object, embed, video {
 	background-color:#222;
 }
 
-/*These styles control the appearence of the navigation bar for all pages.
-As more pages ae added, the width of the nav ul li element will need to be changed appropriately.*/
+/*These styles control the appearence of the navigation bar for all pages.*/
 nav {
 	width: 100%;
 	text-align: center;
@@ -34,7 +33,7 @@ nav ul {
 	margin-left: auto;
 }
 nav ul li {
-	width: 25%;
+	width: auto;
 	display: inline;
 	padding-right: 5px;
 	padding-left: 5px;
@@ -83,6 +82,22 @@ ul {
 	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+footer {
+	margin-top: 75px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	text-align: center;
+}
+footer ul {
+	width: 100%;
+	display: inline;
+	list-style-type: none;
+}
+footer ul li {
+	width: auto;
 }
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
