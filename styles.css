@@ -4,7 +4,7 @@ body {
 	background: #222;
 }
 
-h1, h2, h3 {
+h1, h2, h3, caption {
 	color: cadetblue;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Verdana", "sans-serif";
 	text-align: center;
@@ -37,6 +37,8 @@ nav ul li {
 	display: inline;
 	padding-right: 5px;
 	padding-left: 5px;
+	margin-right: auto;
+	margin-left: auto;
 }
 nav ul li a {
 	color: #222;
@@ -51,6 +53,7 @@ nav ul li a:hover {
 }
 
 table {
+	/*display: block;*/
 	max-width: 90%;
 	margin-left: auto;
 	margin-right: auto;
@@ -59,13 +62,16 @@ table {
 tr {
 	width: 100%;
 }
-p, td {
+p {
 	color: darkgrey;
 	font-size: large;
 	text-align: center;
 }
 
 td {
+	color: darkgrey;
+	font-size: large;
+	text-align: center;
 	width: 33.333%;
 }
 
@@ -79,6 +85,7 @@ ul {
 }
 
 #services {
+	/*display: block;*/
 	width: 60%;
 	margin-left: auto;
 	margin-right: auto;
