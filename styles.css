@@ -10,6 +10,10 @@ h1, h2, h3, caption {
 	text-align: center;
 }
 
+caption {
+	font-size: xx-large;
+}
+
 img, object, embed, video {
 	max-width: 100%;
 }
