@@ -63,6 +63,10 @@ table {
 	margin-right: auto;
 }
 /* Mobile Layout: 480px and below. */
+caption {
+	margin-left: auto;
+	margin-right: auto;
+}
 tr {
 	width: 100%;
 }
@@ -72,11 +76,15 @@ p {
 	text-align: center;
 }
 
-td {
+td, th {
 	color: darkgrey;
 	font-size: large;
 	text-align: center;
-	width: 33.333%;
+	width: 175px;
+}
+
+td .open-source {
+	width: 100px;
 }
 
 a {
