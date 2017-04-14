@@ -103,6 +103,12 @@ ul {
 	margin-right: auto;
 }
 
+video {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
 footer {
 	margin-top: 75px;
 	margin-right: auto;
