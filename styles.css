@@ -31,6 +31,8 @@ img, object, embed, video {
 nav {
 	width: 100%;
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 nav ul {
 	margin-right: auto;
@@ -39,10 +41,7 @@ nav ul {
 nav ul li {
 	width: auto;
 	display: inline;
-	padding-right: 5px;
-	padding-left: 5px;
-	margin-right: auto;
-	margin-left: auto;
+	margin: 5px 0 15px auto;
 }
 nav ul li a {
 	color: #222;
@@ -92,12 +91,48 @@ ul {
 
 #services {
 	/*display: block;*/
-	width: 60%;
+	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-video {
+.feedback {
+	display: block;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+input {
+	display: inline-block;
+	width: 100%;
+	background-color: CadetBlue;
+	border-color: #111;
+	border-style: solid;
+	border-width: thin;
+	font-weight: bold;
+	font-size: large;
+}
+
+#submit {
+	width: 50%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: x-large;
+}
+
+textarea {
+	width: 100%;
+	background-color: CadetBlue;
+	border-color: #111;
+	border-style: solid;
+	border-width: thin;
+	font-weight: bold;
+	font-size: large;
+}
+
+video, audio {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -137,7 +172,7 @@ footer ul li {
 	}
 
 	#services {
-		width: 90%;
+		width: 75%;
 	}
 
 }
