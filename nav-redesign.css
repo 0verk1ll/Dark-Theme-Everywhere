@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+body {
+	background: #222;
+}
+
+h1, h2, h3, caption {
+	color: cadetblue;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Verdana", "sans-serif";
+	text-align: center;
+}
+
+caption {
+	font-size: xx-large;
+}
+
+img, object, embed, video {
+	max-width: 100%;
+}
+
+.fluid {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	float: none;
+	display: block;
+	background-color:#222;
+}
+
+/*These styles control the appearence of the navigation bar for all pages.*/
+nav {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav ul {
+	list-style-type:none;
+  margin: 0;
+  padding:0;
+  position: absolute;
+}
+
+nav ul li {
+	display: inline-block;
+  float: left;
+  margin-right: 1px;
+}
+
+nav ul li a {
+  display: block;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+	color: #222;
+	background-color: aquamarine;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+nav li:hover a {
+  background-color: #222;
+  color: aquamarine;
+}
+
+nav li:hover ul a {
+  background: aquamarine;
+  color: #222;
+  height: 30px;
+  line-height: 30px;
+}
+
+nav li:hover ul a:hover {
+  background: #222;
+  color: aquamarine;
+}
+
+/*Hide dropdown links*/
+nav li ul {
+  display: none;
+}
+
+/*Vertical dropdown links*/
+nav li ul li {
+  display: block;
+  float: none;
+}
+
+/*No text wrap*/
+nav li ul li a {
+  width: auto;
+  min-width: 60px;
+  padding: 0 20px;
+}
+
+/*Show dropdown on hover*/
+nav ul li a:hover + .hidden, .hidden:hover {
+  display: block;
+}
+
+table {
+	/*display: block;*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Mobile Layout: 480px and below. */
+tr {
+	width: 100%;
+}
+
+p {
+	color: darkgrey;
+	font-size: large;
+	text-align: center;
+}
+
+td, th {
+	color: darkgrey;
+	font-size: medium;
+	text-align: center;
+	width: 175px;
+}
+
+a {
+	color:aquamarine;
+	font-size: medium;
+}
+
+ul {
+	color: darkgray;
+}
+
+#services {
+	/*display: block;*/
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.feedback {
+	display: block;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+input {
+	display: inline-block;
+	width: 100%;
+	background-color: CadetBlue;
+	border-color: #111;
+	border-style: solid;
+	border-width: thin;
+	font-weight: bold;
+	font-size: large;
+}
+
+#submit {
+	width: 50%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: x-large;
+}
+
+textarea {
+	width: 100%;
+	background-color: CadetBlue;
+	border-color: #111;
+	border-style: solid;
+	border-width: thin;
+	font-weight: bold;
+	font-size: large;
+}
+
+video, audio {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+footer {
+	margin-top: 75px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	text-align: center;
+}
+footer ul {
+	width: 100%;
+	display: inline;
+	list-style-type: none;
+}
+footer ul li {
+	width: auto;
+}
+
+/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
+
+@media only screen and (min-width: 481px) {
+
+	h2 {
+		font-size: xx-large;
+		text-align: center;
+	}
+
+	p, a, ul, li {
+		font-size: x-large;
+	}
+
+	.fluid {
+		width: 85%;
+	}
+
+	#services {
+		width: 75%;
+	}
+
+}
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+
+@media only screen and (min-width: 769px) {
+	.fluid {
+		width: 60%;
+	}
+
+}
