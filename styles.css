@@ -93,6 +93,16 @@ ul {
 	margin-right: auto;
 }
 
+#social table {
+	table-layout: fixed;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#social td {
+	width: calc(100%/3);
+}
+
 .feedback {
 	display: block;
 	width: 90%;
