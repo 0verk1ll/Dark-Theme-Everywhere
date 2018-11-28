@@ -86,6 +86,18 @@ ul {
 	color: darkgray;
 }
 
+#masthead {
+	margin-bottom: 35px;
+}
+
+#masthead a, h2 {
+	text-align: left;
+}
+
+#masthead img {
+	margin-right: 10px;
+}
+
 #services {
 	/*display: block;*/
 	width: 90%;
@@ -168,6 +180,10 @@ footer ul li {
 	h2 {
 		font-size: xx-large;
 		text-align: center;
+	}
+
+	#masthead a, h2 {
+		text-align: left;
 	}
 
 	p, a, ul, li {
