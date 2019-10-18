@@ -19,40 +19,40 @@ img, object, embed, video {
 }
 
 .fluid {
+	background-color:#222;
+	display: block;
+	float: none;
 	margin-left: auto;
 	margin-right: auto;
 	width: 100%;
-	float: none;
-	display: block;
-	background-color:#222;
 }
 
 /*These styles control the appearence of the navigation bar for all pages.*/
 nav {
-	width: 100%;
-	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+	text-align: center;
+	width: 100%;
 }
 nav ul {
-	margin-right: auto;
 	margin-left: auto;
+	margin-right: auto;
 }
 nav ul li {
-	width: auto;
 	display: inline;
 	margin: 5px 0 15px auto;
+	width: auto;
 }
 nav ul li a {
-	color: #222;
 	background-color: aquamarine;
 	border-radius: 5px;
-	padding-right: 5px;
+	color: #222;
 	padding-left: 5px;
+	padding-right: 5px;
 }
 nav ul li a:hover {
-	color: aquamarine;
 	background-color: #222;
+	color: aquamarine;
 }
 
 table {
@@ -68,7 +68,6 @@ p {
 	color: darkgrey;
 	font-size: large;
 	text-align: center;
-	font-size: medium;
 }
 
 td, th {
@@ -87,29 +86,29 @@ ul {
 	color: darkgray;
 }
 
-#masthead {
+.masthead {
 	margin-bottom: 35px;
 }
 
-#masthead a, h2 {
+.masthead a, h2 {
 	text-align: left;
 }
 
-#masthead img {
+.masthead img {
 	margin-right: 10px;
 }
 
-#services {
+.services {
 	/*display: block;*/
-	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
+	width: 90%;
 }
 
-#social table {
-	table-layout: fixed;
+.social table {
 	margin-left: auto;
 	margin-right: auto;
+	table-layout: fixed;
 }
 
 #social td {
@@ -118,57 +117,57 @@ ul {
 
 .feedback {
 	display: block;
-	width: 90%;
-	margin-right: auto;
 	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
 }
 
 input {
-	display: inline-block;
-	width: 100%;
 	background-color: CadetBlue;
 	border-color: #111;
 	border-style: solid;
 	border-width: thin;
-	font-weight: bold;
+	display: inline-block;
 	font-size: large;
+	font-weight: bold;
+	width: 100%;
 }
 
 #submit {
-	width: 50%;
 	display: block;
-	margin-right: auto;
-	margin-left: auto;
 	font-size: x-large;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
 
 textarea {
-	width: 100%;
 	background-color: CadetBlue;
 	border-color: #111;
 	border-style: solid;
 	border-width: thin;
-	font-weight: bold;
 	font-size: large;
+	font-weight: bold;
+	width: 100%;
 }
 
 video, audio {
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	display: block;
 }
 
 footer {
-	margin-top: 75px;
-	margin-right: auto;
-	margin-left: auto;
 	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px;
 	text-align: center;
 }
 footer ul {
-	width: 100%;
 	display: inline;
 	list-style-type: none;
+	width: 100%;
 }
 footer ul li {
 	width: auto;
@@ -183,7 +182,7 @@ footer ul li {
 		text-align: center;
 	}
 
-	#masthead a, h2 {
+	.masthead a, h2 {
 		text-align: left;
 	}
 
@@ -195,7 +194,7 @@ footer ul li {
 		width: 85%;
 	}
 
-	#services {
+	.services {
 		width: 75%;
 	}
 
