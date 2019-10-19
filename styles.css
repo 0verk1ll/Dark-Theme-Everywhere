@@ -41,7 +41,6 @@ nav {
 nav ul li {
   display: inline;
   margin: 5px 0 15px auto;
-  width: auto;
 }
 
 nav ul li a {
@@ -176,7 +175,6 @@ footer {
 footer ul {
   display: inline;
   list-style-type: none;
-  width: 100%;
 }
 
 footer ul li {
