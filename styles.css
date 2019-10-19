@@ -1,209 +1,215 @@
 @charset "utf-8";
 
 body {
-	background: #222;
+  background: #222;
 }
 
 h1, h2, h3, caption {
-	color: cadetblue;
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Verdana", "sans-serif";
-	text-align: center;
+  color: cadetblue;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Verdana", "sans-serif";
+  text-align: center;
 }
 
 caption {
-	font-size: xx-large;
+  font-size: xx-large;
 }
 
 img, object, embed, video {
-	max-width: 100%;
+  max-width: 100%;
 }
 
 .fluid {
-	background-color:#222;
-	display: block;
-	float: none;
-	margin-left: auto;
-	margin-right: auto;
-	width: 100%;
+  background-color: #222;
+  display: block;
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 /*These styles control the appearence of the navigation bar for all pages.*/
+nav, nav ul {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 nav {
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	width: 100%;
+  text-align: center;
+  width: 100%;
 }
-nav ul {
-	margin-left: auto;
-	margin-right: auto;
-}
+
 nav ul li {
-	display: inline;
-	margin: 5px 0 15px auto;
-	width: auto;
+  display: inline;
+  margin: 5px 0 15px auto;
+  width: auto;
 }
+
 nav ul li a {
-	background-color: aquamarine;
-	border-radius: 5px;
-	color: #222;
-	padding-left: 5px;
-	padding-right: 5px;
+  background-color: aquamarine;
+  border-radius: 5px;
+  color: #222;
+  padding-left: 5px;
+  padding-right: 5px;
 }
+
 nav ul li a:hover {
-	background-color: #222;
-	color: aquamarine;
+  background-color: #222;
+  color: aquamarine;
 }
 
 table {
-	/*display: block;*/
-	margin-left: auto;
-	margin-right: auto;
+  /*display: block;*/
+  margin-left: auto;
+  margin-right: auto;
 }
+
 /* Mobile Layout: 480px and below. */
 tr {
-	width: 100%;
+  width: 100%;
 }
+
 p {
-	color: darkgrey;
-	font-size: large;
-	text-align: center;
+  color: darkgrey;
+  font-size: large;
+  text-align: center;
 }
 
 td, th {
-	color: darkgrey;
-	font-size: medium;
-	text-align: center;
-	width: 175px;
+  color: darkgrey;
+  font-size: medium;
+  text-align: center;
+  width: 175px;
 }
 
 a {
-	color:aquamarine;
-	font-size: medium;
+  color: aquamarine;
+  font-size: medium;
 }
 
 ul {
-	color: darkgray;
+  color: darkgray;
 }
 
 .masthead {
-	margin-bottom: 35px;
+  margin-bottom: 35px;
 }
 
 .masthead a, h2 {
-	text-align: left;
+  text-align: left;
 }
 
 .masthead img {
-	margin-right: 10px;
+  float: left;
+}
+
+.masthead img {
+  margin-right: 10px;
 }
 
 .services {
-	/*display: block;*/
-	margin-left: auto;
-	margin-right: auto;
-	width: 90%;
+  /*display: block;*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 
 .social table {
-	margin-left: auto;
-	margin-right: auto;
-	table-layout: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
 }
 
 #social td {
-	width: calc(100%/3);
+  width: calc(100%/3);
 }
 
 .feedback {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 
 input {
-	background-color: CadetBlue;
-	border-color: #111;
-	border-style: solid;
-	border-width: thin;
-	display: inline-block;
-	font-size: large;
-	font-weight: bold;
-	width: 100%;
+  background-color: CadetBlue;
+  border-color: #111;
+  border-style: solid;
+  border-width: thin;
+  display: inline-block;
+  font-size: large;
+  font-weight: bold;
+  width: 100%;
 }
 
 #submit {
-	display: block;
-	font-size: x-large;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
+  display: block;
+  font-size: x-large;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 textarea {
-	background-color: CadetBlue;
-	border-color: #111;
-	border-style: solid;
-	border-width: thin;
-	font-size: large;
-	font-weight: bold;
-	width: 100%;
+  background-color: CadetBlue;
+  border-color: #111;
+  border-style: solid;
+  border-width: thin;
+  font-size: large;
+  font-weight: bold;
+  width: 100%;
 }
 
 video, audio {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 footer {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 75px;
-	text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 75px;
+  text-align: center;
 }
+
 footer ul {
-	display: inline;
-	list-style-type: none;
-	width: 100%;
+  display: inline;
+  list-style-type: none;
+  width: 100%;
 }
+
 footer ul li {
-	width: auto;
+  width: auto;
 }
 
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
-
 @media only screen and (min-width: 481px) {
+  h2 {
+    font-size: xx-large;
+    text-align: center;
+  }
 
-	h2 {
-		font-size: xx-large;
-		text-align: center;
-	}
+  .masthead a, h2 {
+    text-align: left;
+  }
 
-	.masthead a, h2 {
-		text-align: left;
-	}
+  p, a, ul, li {
+    font-size: x-large;
+  }
 
-	p, a, ul, li {
-		font-size: x-large;
-	}
+  .fluid {
+    width: 85%;
+  }
 
-	.fluid {
-		width: 85%;
-	}
-
-	.services {
-		width: 75%;
-	}
-
+  .services {
+    width: 75%;
+  }
 }
+
 /* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
-
 @media only screen and (min-width: 769px) {
-	.fluid {
-		width: 60%;
-	}
-
+  .fluid {
+    width: 60%;
+  }
 }
