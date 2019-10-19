@@ -38,11 +38,11 @@ nav {
   width: 100%;
 }
 
-nav ul li {
+nav li {
   display: inline;
 }
 
-nav ul li a {
+nav li a {
   background-color: aquamarine;
   border-radius: 5px;
   color: #222;
@@ -50,7 +50,7 @@ nav ul li a {
   padding-right: 5px;
 }
 
-nav ul li a:hover {
+nav li a:hover {
   background-color: #222;
   color: aquamarine;
 }
@@ -173,7 +173,7 @@ footer ul {
   list-style-type: none;
 }
 
-footer ul li {
+footer li {
   width: auto;
 }
 
