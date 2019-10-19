@@ -40,7 +40,6 @@ nav {
 
 nav ul li {
   display: inline;
-  margin: 5px 0 15px auto;
 }
 
 nav ul li a {
@@ -99,9 +98,6 @@ ul {
 
 .masthead img {
   float: left;
-}
-
-.masthead img {
   margin-right: 10px;
 }
 
