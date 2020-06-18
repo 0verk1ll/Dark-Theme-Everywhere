@@ -1,3 +1,9 @@
+<!--
+ * SPDX-FileCopyrightText: 2020 0verk1ll
+ *
+ * SPDX-License-Identifier: GPL-3.0-or-later
+-->
+
 # Dark-Theme-Everywhere
 
 [![Join the chat at https://gitter.im/Dark-Theme-Everywhere/Lobby](https://badges.gitter.im/Dark-Theme-Everywhere/Lobby.svg)](https://gitter.im/Dark-Theme-Everywhere/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
