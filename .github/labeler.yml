@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2020 0verk1ll
+#
+# SPDX-License-Identifier: CC0-1.0
+
 # Add 'style' to any change to CSS files
 style:
   - ./*.css
