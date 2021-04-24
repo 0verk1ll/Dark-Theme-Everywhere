@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2021 0verk1ll
+#
+# SPDX-License-Identifier: CC0-1.0
+
 # This workflow will triage pull requests and apply a label based on the
 # paths that are modified in the pull request.
 #
