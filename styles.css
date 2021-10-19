@@ -7,11 +7,11 @@
 @charset "utf-8";
 
 body {
-  background: #222;
+  background: #282A36;
 }
 
 h1, h2, h3, caption {
-  color: cadetblue;
+  color: #BD93F9;
   font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Verdana", "sans-serif";
   text-align: center;
 }
@@ -25,7 +25,7 @@ img, object, embed, video {
 }
 
 .fluid {
-  background-color: #222;
+  background-color: #282A36;
   display: block;
   float: none;
   margin-left: auto;
@@ -49,16 +49,16 @@ nav li {
 }
 
 nav li a {
-  background-color: aquamarine;
+  background-color: #BD93F9;
   border-radius: 5px;
-  color: #222;
+  color: #282A36;
   padding-left: 5px;
   padding-right: 5px;
 }
 
 nav li a:hover {
-  background-color: #222;
-  color: aquamarine;
+  background-color: #282A36;
+  color: #BD93F9;
 }
 
 table {
@@ -73,33 +73,34 @@ tr {
 }
 
 p {
-  color: darkgrey;
+  color: #F8F8F2;
   font-size: large;
   text-align: center;
 }
 
 td, th {
-  color: darkgrey;
+  color: #F8F8F2;
   font-size: medium;
   text-align: center;
   width: 175px;
 }
 
 a {
-  color: aquamarine;
+  color: #FF79C6;
   font-size: medium;
 }
 
 ul {
-  color: darkgray;
+  color: #F8F8F2;
 }
 
 .masthead {
   margin-bottom: 35px;
 }
 
-.masthead a, h2 {
+.masthead a, .masthead h2 {
   text-align: left;
+  color: aquamarine;
 }
 
 .masthead img {
